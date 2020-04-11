@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "cascadia_coderegular";
+  src: url("fonts/cascadia-webfont.woff2") format("woff2"),
+    url("fonts/cascadia-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "cascadia_coderegular";
+  text-align: center;
+  margin: 40px;
+}
+
+@media only screen and (min-width: 900px) {
+  .conteudo {
+    width: 800px;
+    margin: auto;
+  }
+}
+
