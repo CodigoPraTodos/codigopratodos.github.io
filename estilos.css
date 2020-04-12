@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500&display=swap');
+
 @font-face {
   font-family: "cascadia_coderegular";
   src: url("fonts/cascadia-webfont.woff2") format("woff2"),
@@ -7,9 +9,29 @@
 }
 
 body {
-  font-family: "cascadia_coderegular";
+  font-family: 'Fira Mono', monospace;
   text-align: center;
   margin: 40px;
+}
+
+h1 {
+  font-family: "cascadia_coderegular";
+}
+
+ol li {
+  margin: 10px;
+}
+
+a {
+  color: blue;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.esquerda {
+  text-align: left;
 }
 
 @media only screen and (min-width: 900px) {
