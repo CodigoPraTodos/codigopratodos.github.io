@@ -58,3 +58,20 @@ a:hover {
   width: 100%;
   height: 100%;
 }
+
+.destaques {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.destaques .card {
+  text-align: center;
+  width: 250px;
+}
+
+.destaques .card img {
+  width: 240px;
+  height: 240px;
+}
